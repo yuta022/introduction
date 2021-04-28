@@ -1,0 +1,114 @@
+*{
+  box-sizing: border-box;
+}
+/* 以下タブレット端末幅(1000px以下)用 */
+h2{
+  text-align: center;
+  font-size: 36px;
+  padding: 40px 0 20px 0;
+}
+li{
+  list-style: none;
+}
+.clear{
+  clear:left;
+}
+main{
+  width: 100%;
+}
+header{
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+header a{
+  text-decoration: none;
+  color: white;
+  float: left;
+  padding: 5px 15px;
+  display: block;
+  transition: all 0.5s; /*にょきーんってなる*/
+}
+header a:hover{
+  background-color:rgba(255, 255, 255, 0.5)
+}
+.top{
+  background-image: url(sources/img/river-6175173_1920.jpg);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.top h1{
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 52px;
+}
+
+.profile{
+  background-color: mediumseagreen;
+}
+.contents{
+  /* 要素を横並び、かつ中央ぞろえにする */
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.profile ul{
+  background-color: lightskyblue;
+  border-radius: 10px;
+  margin: 0 40px 10px 0;
+  box-shadow: 0 2px 5px #559;
+}
+.profile li{
+  font-size: 20px;
+  padding: 5px 0;
+}
+.profile img{
+  height: 285px;
+  border-radius: 10px;
+}
+/* 経歴 */
+.career{
+  background-color: orange;
+}
+/* スキル */
+.skill img{
+  width: 20%;
+  padding: 0 20px;
+  margin: 0 20px 10px 0;
+}
+
+.portfolio{
+  background-color: aqua;
+}
+.card{
+  margin: 0 20px 10px 0 ;
+  width: 30%;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 2px 5px #bbb;
+}
+.card img{
+  border-radius: 10px;
+  width: 100%;
+}
+.card h3{
+  font-size: 25px;
+}
+.card p{
+  font-size: 20px;
+}
+
+footer{
+  background-color: black;
+}
+footer p{
+  color: white;
+  text-align: center;
+}
