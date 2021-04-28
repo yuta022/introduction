@@ -73,10 +73,8 @@ header a:hover{
   height: 285px;
   border-radius: 10px;
 }
-/* 経歴 */
-.career{
-  background-color: orange;
-}
+
+
 /* スキル */
 .skill img{
   width: 20%;
